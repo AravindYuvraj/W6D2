@@ -1,8 +1,4 @@
-Here is the complete `README.md` file for your project.
 
------
-
-````markdown
 # RAG for Banking Knowledge Base
 
 This project is an advanced Retrieval-Augmented Generation (RAG) system built with LangChain. It serves as an AI assistant for a bank, answering questions about loan products, regulatory requirements, and internal policies from a document knowledge base.
@@ -18,10 +14,9 @@ This project is an advanced Retrieval-Augmented Generation (RAG) system built wi
 
 The system follows a sophisticated RAG pipeline designed for high-quality, context-aware responses.
 
-````
+
 <img width="1958" height="3840" alt="Untitled diagram _ Mermaid Chart-2025-07-23-100613" src="https://github.com/user-attachments/assets/98a8dab1-f8c2-4aa8-ac15-25a1b3e95c1f" />
 
-````
 
 ## Setup & Usage
 
