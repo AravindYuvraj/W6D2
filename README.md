@@ -18,32 +18,9 @@ This project is an advanced Retrieval-Augmented Generation (RAG) system built wi
 
 The system follows a sophisticated RAG pipeline designed for high-quality, context-aware responses.
 
-```mermaid
-graph TD
-    A[PDF Document] --> B{unstructured.io Processor};
-    B --> C[Text Chunks];
-    B --> D[Table Elements];
-    D --> E[LLM Summarizer];
-    E --> F[Table Summaries];
-    C --> G(Vector Store - ChromaDB);
-    F --> G;
-    D -.-> H{Key-Value Store};
-    
-    subgraph "Query Time"
-        I[User Question] --> J[Conversational Chain];
-        J --> K[Retriever];
-        K --> G;
-        G --> L[Retrieved Docs: Text/Summaries];
-        L --> M{Context Formatter};
-        M -- "If Table Summary" --> H;
-        H -- "Fetch Full Table" --> M;
-        M --> N[Formatted Context];
-        N --> J;
-        J --> O[LLM];
-        O --> P[Final Answer];
-    end
+````
+<img width="1958" height="3840" alt="Untitled diagram _ Mermaid Chart-2025-07-23-100613" src="https://github.com/user-attachments/assets/98a8dab1-f8c2-4aa8-ac15-25a1b3e95c1f" />
 
-    style H fill:#f9f,stroke:#333,stroke-width:2px
 ````
 
 ## Setup & Usage
