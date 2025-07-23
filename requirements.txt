@@ -1,0 +1,9 @@
+langchain
+langchain-openai
+langchain-chroma
+unstructured[pdf]
+python-dotenv
+ragas
+datasets
+pandas
+
