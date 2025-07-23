@@ -56,18 +56,5 @@ The system follows a sophisticated RAG pipeline designed for high-quality, conte
     ```
 3.  Run the main application:
     ```bash
-    python main.py
+    python main2.py
     ```
-
-### Running the Evaluation
-
-1.  Create your test questions in `test_questions.py`.
-2.  Run the evaluation script:
-    ```bash
-    python evaluate.py
-    ```
-
-<!-- end list -->
-
-```
-```
